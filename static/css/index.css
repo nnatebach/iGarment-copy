@@ -1,0 +1,394 @@
+h1, h2, h3, h4 {
+    color: #1A1311;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+    color: #262626;
+}
+
+h4 {
+    font-size: 26px
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    min-height: 450px;
+}
+
+.banner img {
+    max-width: 100%;
+    display: block;
+}
+
+.banner .img {
+   width: 12%;
+}
+
+.banner-wrap {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-wrap h1 {
+    line-height: 67px;
+    margin-bottom: 20px;
+}
+
+.banner-wrap h4 {
+    line-height: 42px;
+    margin-bottom: 20px;
+    color: #002727;
+}
+
+.banner-wrap h4 span {
+    color: #FF9933
+}
+
+.img-two {
+    width: 26%;
+}
+
+.btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-wrap button {
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FF9933;
+}
+
+.btn-wrap button {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btn-success {
+    color: #fff;
+    background: #FF9933;
+    padding: 12px 20px;
+}
+
+.btn-video {
+    color: #595757;
+    line-height: 49px;
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px 0 20px;
+}
+
+.play {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: url("../images/play.png") no-repeat;
+    margin-left: 16px;
+}
+
+/*三个*/
+.index-wrap {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.info-wrap {
+    width: 719px;
+}
+
+.content-one {
+    background: url("../images/JOS-bk.jpg") no-repeat;
+    padding-bottom: 20px;
+}
+
+.info-wrap.one {
+    margin-left: 180px;
+    width: 425px;
+}
+
+.one-img {
+    position: relative;
+    margin-top: 102px
+}
+
+.content {
+    display: flex;
+}
+
+.content .title1 {
+    width: 346px;
+    margin-top: 100px;
+}
+
+.content .btn-wrap {
+    justify-content: left;
+}
+
+.content h2 {
+    line-height: 62px;
+    margin-top: 14px;
+    color: #FF9933;
+}
+
+.content h3 {
+    padding: 12px 0;
+    line-height: 49px;
+    color: #231916;
+}
+
+.content p {
+    padding: 12px 0 28px 0;
+    color: #595757
+}
+
+.content-one.two {
+    background: url("../images/bk_iWork.jpg") no-repeat;
+}
+
+.iwork {
+    position: relative;
+    margin-top: 152px;
+}
+
+.info-wrap.two {
+    width: 476px;
+    margin-top: 152px;
+    margin-right: 195px;
+}
+
+.iwork-pms {
+    width: 260px;
+}
+
+.three {
+    text-align: center;
+}
+
+.content-three {
+    background: #F2F3F7;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.three h3 {
+    padding-top: 60px;
+    line-height: 50px;
+}
+
+.three h6 {
+    font-size: 22px;
+    color: #FF9933;
+    padding: 12px 0 20px 0;
+}
+
+.three p {
+    font-size: 22px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+
+.content-four {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.product li {
+    width: 33.333333%
+}
+
+.content-four h3 {
+    padding-bottom: 50px;
+    line-height: 50px;
+}
+
+.theme {
+    color: #FF9933;
+}
+
+.product img {
+    padding-bottom: 10px;
+}
+
+.product .theme {
+    font-size: 40px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.product i {
+    padding-left: 5px;
+}
+
+.content-five {
+    text-align: center;
+}
+
+.swiper-container {
+    width: 1100px;
+}
+
+.slide-wrap {
+    box-sizing: border-box;
+    background: #F2F3F7;
+    padding: 30px 20px;
+    border: 1px solid #DCDEE3;
+}
+
+.slide-img-wrap {
+    width: 342px;
+    height: 180px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.case {
+    float: left;
+    width: 346px;
+    height: 480px;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    background: #F2F3F7;
+    border: 1px solid #DCDEE3;
+    text-align: left;
+
+}
+.case:hover{
+    box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.50);
+}
+.case > img {
+    margin: auto;
+    height: auto;
+    max-width: 100%
+}
+
+.case-content > p {
+    padding: 4px;
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 0;
+    height: 140px;
+    line-height: 28px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+.case-signature {
+    padding-bottom: 10px;
+    display: block
+}
+
+.case-signature > p {
+    margin: 0 0 2px;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.case-footer {
+    text-align: center
+}
+
+.case-footer > .btn-further {
+    width: 100%;
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    background-color: #f93;
+    border-color: #f93; line-height: 44px;
+    text-decoration: none;
+}
+
+.case-footer > .btn-further:hover {
+    color: #000;
+    background-color: #ffba05;
+    border-color: #ffba05
+}
+
+.case-indent {
+    padding-left: 20px
+}
+
+.swiper-pagination-bullet{
+    width: 16px !important;
+    height: 16px !important;
+    background: #fff !important;
+    opacity: 1 !important;
+    border: 1px solid #ff9933;
+}
+.swiper-pagination-bullet-active{
+    background-color: #ff9933 !important;
+}
+.content-five{ padding-bottom: 100px; overflow: hidden }
+.content-five h3{ font-size: 36px;
+    color: #333333; line-height: 50px; padding-bottom: 50px;}
+
+.index-icon{ position: absolute; }
+.index-icon.a{left: -8px;top: 65px;}
+.index-icon.b{left: 99px;top: -2px;}
+.index-icon.c{left: 96px;top: 78px;}
+.index-icon.d{left: 238px;top: 19px;}
+.index-icon.e{left: 247px;top: 109px;}
+.index-icon.f{left: 347px;top: 23px;}
+.index-icon.g{left: -13px;top: 202px;}
+.index-icon.h{left: 65px;top: 51px;}
+.index-icon.i{left: 37px;top: 127px;}
+
+@media screen and(max-width: 1200px) {
+  .img-two {width: 500px;}
+}

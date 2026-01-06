@@ -1,0 +1,37 @@
+/* video.html */
+.hide-igarment-video {
+  display: none;
+}
+
+
+/* product_pe.html */
+.banner-content.wow.bounceInLeft {
+  margin-top: 50px;
+}
+
+
+/* product_jos.html */
+img.clock2-img {
+  top: 114px;
+}
+.index-plane {
+  left: 94px; bottom: 10px;
+}
+
+
+/* base.html */
+.logo img {
+  padding-top: 12px;
+}
+@media(min-width:1161px){
+  .menu li a {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  div.nav {
+    padding: 0 20px;
+  }
+  .menu li a.lang-menu {
+    font-size: 0;
+  }
+}

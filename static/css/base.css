@@ -1,0 +1,502 @@
+div.center-div {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+div.q-body {
+  padding: 0;
+  height: 400px;
+  width: 400px;
+}
+
+div.q-content {
+  border-width: 0;
+  /*height: 400px;*/
+  /*width: 400px;*/
+}
+
+div.q-dialog {
+  top: 200px;
+  box-sizing: content-box;
+  border: solid #ff9933 20px;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+/* booking */
+
+.toggle{
+  z-index: 9999;
+  height:330px;
+  width: 100%;
+  background: url('/static/images/book-background-330px.png') no-repeat;
+  background-position: center;
+  position: fixed;
+  bottom: -280px;
+  transition: all 300ms ease-in-out;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.toggle-button{
+  height:60px;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+}
+.toggle-click {
+  vertical-align: middle;
+}
+div.toggle-content{
+  text-align: center;
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.toggle-title {
+  font-size: 25px;
+  padding: 6px 0 10px;
+  font-weight: 500;
+}
+.toggle-detail {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.toggle-form {
+  margin-top: 30px;
+}
+.toggle-input-wrapper{
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.toggle-input{
+  width: 30%;
+  margin-right: 6px;
+  padding:4px 8px;
+}
+.toggle-post {
+  margin-top: 30px;
+  text-align: center;
+}
+.toggle-qrcode {
+  text-align: center;
+  height: 300px;
+  line-height: 300px;
+  color:black;
+}
+
+.col-sm-8 {
+  width: 66.6666667%;
+}
+
+.col-sm-8, .col-sm-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.igmt-btn {
+  transition: all 0.2s ease-in-out 0s;
+  border-width: 0px;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  text-decoration: none;
+  word-spacing: 6px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-lg{
+  padding:8px 12px;
+  line-height: 1.3333333;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* end booking  */
+
+/* modal */
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  opacity: .75;
+}
+
+.close:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  pointer-events: none;
+}
+
+.modal.fade .modal-dialog {
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+}
+
+.modal.show .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-dialog-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0.5;
+}
+
+.modal-backdrop.show {
+  opacity: 0;
+}
+
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.modal-footer > :not(:first-child) {
+  margin-left: .25rem;
+}
+
+.modal-footer > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 578px;
+    margin: 1.75rem auto;
+  }
+  video.modal-video {
+    min-height: 382px;
+  }
+  .modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+  }
+  .modal-sm {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .modal-dialog {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .modal-dialog {
+    max-width: 800px;
+  }
+}
+
+/* end modal */
+
+/* modal-video */
+
+.nav {
+  padding: 0 50px;
+}
+
+.button.video_button {
+  width: 172px;
+}
+.modal {
+  z-index: 10000;
+  top: 50px;
+}
+.modal-content {
+  background-color: black;
+}
+
+button.close {
+  font-size: 50px;
+  position: relative;
+  top: -10px;
+  outline: none;
+}
+
+div.modal-body {
+  position: relative;
+  background-color: black;
+}
+
+.modal-dialog {
+  top: 150px;
+  border: solid #ff9933 20px;
+  border-radius: 10px;
+  background-color: #ff9933;
+}
+
+.modal-video {
+  width: 100%;
+  object-fit: fill;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0 5% 0 5%;
+}
+
+button.close {
+  position: absolute;
+  left: 87%;
+  top: 7%;
+}
+.play-video-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-body video {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+video::-webkit-media-controls-panel {
+  margin-top: 30px;
+}
+
+/* end modal-video */
+.float {
+  display: none;
+  position: fixed;
+  top: 250px;
+  right: 0;
+  z-index: 999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.float .float-box{
+	display: block;
+	position: relative;
+  height: 340px;
+}
+
+.float .float-box li:first-child{
+  border-top-left-radius:10px;
+}
+.float .float-box li:last-child{
+  border-bottom-left-radius:10px;
+}
+.float .float-box li {
+	width: 70px;
+	height: 70px;
+	margin-top: 1px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-color: #006699;
+	transition: All .2s ease-in-out;
+	-webkit-transition: All .2s ease-in-out;
+	-moz-transition: All .2s ease-in-out;
+	-o-transition: All .2s ease-in-out;
+}
+
+.float .float-box li img {
+	max-height: 25px;
+  margin-top: 10px;
+}
+
+.float .float-box li .item {
+  bottom: 0;
+  right: 107%;
+  width: 200px;
+  color: #fff;
+  display: none;
+  text-align: left;
+  position: absolute;
+  padding: 10px 10px 10px 13px;
+  line-height: 20px;
+  background-color: #0d91fe;
+}
+
+.float .float-box li:hover>.item{
+  display: block;
+  border-radius: 4px;
+}
+
+.float .float-box li .item img {
+	max-height: 100%
+}
+
+.float .float-box li .item p{
+	font-size: 13px
+}
+
+.float .float-box li .item .p-2 {
+	font-size: 17px;
+	font-family:"微软雅黑",Arial;
+	color: #fff
+}
+
+.float .float-box li>a {
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 12px
+}
+
+.float .float-box li:hover {
+	background-color: #0d91fe
+}
+
+.float .float-box li p {
+	color: #fff;
+	padding-left: 0;
+	text-align: center
+}
+
+/*
+Prevent the icon at the top right side of the navigation bar
+from blocking the language selection
+ */
+#aff-im-root .embed-icon {
+    z-index: 1 !important;
+}
